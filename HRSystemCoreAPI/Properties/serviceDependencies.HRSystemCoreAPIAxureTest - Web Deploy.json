@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "apis1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.ApiManagement/service/HRSystemCoreAPIapi/apis/HRSystemCoreAPI",
+      "type": "apis.azure"
+    },
+    "mssql1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/johanssqlserver/databases/hr_test",
+      "type": "mssql.azure",
+      "connectionId": "ConnectionStrings:HRSystemCoreAPIContext",
+      "secretStore": "AzureAppSettings"
+    },
+    "mssql2": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/johanssqlserver/databases/hr_test",
+      "type": "mssql.azure",
+      "connectionId": "ConnectionStrings:DBConnection",
+      "secretStore": "AzureAppSettings"
+    }
+  }
+}
