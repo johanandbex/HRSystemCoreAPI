@@ -23,11 +23,34 @@ namespace HRSystemCoreAPI.Controllers
 
         // GET: api/People
         [HttpGet]
+        public async Task<ActionResult<IEnumerable<Person>>> GetPerson([FromQuery] string searchstring="")
+        {
+
+            List<Person> people;
+
+            
+            if (!String.IsNullOrEmpty(searchstring))
+            {
+                people = await _context.Person.Where(p => p.Status.Status1.Contains(searchstring) || p.Department.DepartmentName.Contains(searchstring)).ToListAsync();
+            }
+            else
+            {
+                people = await _context.Person.ToListAsync();
+            }
+            
+
+
+            return people;
+        }
+
+        /*
+        // GET: api/People
+        [HttpGet]
         public async Task<ActionResult<IEnumerable<Person>>> GetPerson()
         {
             return await _context.Person.ToListAsync();
         }
-
+        */
         // GET: api/People/5
         [HttpGet("{id}")]
         public async Task<ActionResult<Person>> GetPerson(int id)

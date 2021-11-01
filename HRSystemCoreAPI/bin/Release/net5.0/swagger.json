@@ -283,6 +283,14 @@
           "application/json",
           "text/json"
         ],
+        "parameters": [
+          {
+            "in": "query",
+            "name": "searchstring",
+            "type": "string",
+            "default": ""
+          }
+        ],
         "responses": {
           "200": {
             "description": "Success",
