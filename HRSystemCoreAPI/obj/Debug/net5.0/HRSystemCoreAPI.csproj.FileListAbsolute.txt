@@ -137,3 +137,7 @@ D:\Users\Johan\MyDocuments\GitHub\HRSystemCoreAPI\HRSystemCoreAPI\bin\Debug\net5
 D:\Users\Johan\MyDocuments\GitHub\HRSystemCoreAPI\HRSystemCoreAPI\bin\Debug\net5.0\Microsoft.AspNetCore.TestHost.dll
 D:\Users\Johan\MyDocuments\GitHub\HRSystemCoreAPI\HRSystemCoreAPI\bin\Debug\net5.0\Microsoft.Extensions.DependencyModel.dll
 D:\Users\Johan\MyDocuments\GitHub\HRSystemCoreAPI\HRSystemCoreAPI\bin\Debug\net5.0\System.IO.Pipelines.dll
+D:\Users\Johan\MyDocuments\GitHub\HRSystemCoreAPI\HRSystemCoreAPI\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\Users\Johan\MyDocuments\GitHub\HRSystemCoreAPI\HRSystemCoreAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\Users\Johan\MyDocuments\GitHub\HRSystemCoreAPI\HRSystemCoreAPI\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+D:\Users\Johan\MyDocuments\GitHub\HRSystemCoreAPI\HRSystemCoreAPI\obj\Debug\net5.0\HRSystemCoreAPI.csproj.CopyComplete

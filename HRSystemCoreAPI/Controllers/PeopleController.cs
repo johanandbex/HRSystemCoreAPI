@@ -28,14 +28,14 @@ namespace HRSystemCoreAPI.Controllers
 
             List<Person> people;
 
-            
+            //.Include(p=>p.Company)
             if (!String.IsNullOrEmpty(searchstring))
             {
-                people = await _context.Person.Where(p => p.Status.Status1.Contains(searchstring) || p.Department.DepartmentName.Contains(searchstring)).ToListAsync();
+                people = await _context.Person.Where(p => p.Status.Status1.Contains(searchstring) || p.Department.DepartmentName.Contains(searchstring)).Include(p => p.Status).Include(p => p.Company).Include(p => p.Department).ToListAsync();
             }
             else
             {
-                people = await _context.Person.ToListAsync();
+                people = await _context.Person.Include(p => p.Status).Include(p=>p.Company).Include(p=>p.Department).ToListAsync();
             }
             
 

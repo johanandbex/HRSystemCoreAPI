@@ -10,13 +10,13 @@ namespace HRSystemCoreAPI.DatabaseEntity
     {
         public Status()
         {
-            People = new HashSet<Person>();
+          //  People = new HashSet<Person>();
         }
 
         public int StatusId { get; set; }
         [Column("Status")]
         public string Status1 { get; set; }
 
-        public virtual ICollection<Person> People { get; set; }
+       // public virtual ICollection<Person> People { get; set; }
     }
 }

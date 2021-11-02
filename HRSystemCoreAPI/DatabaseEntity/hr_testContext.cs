@@ -51,12 +51,13 @@ namespace HRSystemCoreAPI.DatabaseEntity
                     .IsRequired()
                     .HasMaxLength(200)
                     .IsUnicode(false);
-
+                /*
                 entity.HasOne(d => d.Region)
                     .WithMany(p => p.Companies)
                     .HasForeignKey(d => d.RegionId)
                     .OnDelete(DeleteBehavior.ClientSetNull)
                     .HasConstraintName("FK_Company_Region");
+                */
             });
 
             modelBuilder.Entity<Department>(entity =>
@@ -74,12 +75,13 @@ namespace HRSystemCoreAPI.DatabaseEntity
                     .IsRequired()
                     .HasMaxLength(200)
                     .IsUnicode(false);
-
+                /*
                 entity.HasOne(d => d.Company)
                     .WithMany(p => p.Departments)
                     .HasForeignKey(d => d.CompanyId)
                     .OnDelete(DeleteBehavior.ClientSetNull)
                     .HasConstraintName("FK_Department_Company");
+                */
             });
 
             modelBuilder.Entity<Person>(entity =>
@@ -108,22 +110,24 @@ namespace HRSystemCoreAPI.DatabaseEntity
                     .IsRequired()
                     .HasMaxLength(200)
                     .IsUnicode(false);
-
+                /*
                 entity.HasOne(d => d.Company)
                     .WithMany(p => p.People)
                     .HasForeignKey(d => d.CompanyId)
                     .HasConstraintName("FK_Person_Company");
-
+                
                 entity.HasOne(d => d.Department)
                     .WithMany(p => p.People)
                     .HasForeignKey(d => d.DepartmentId)
                     .HasConstraintName("FK_Person_Department");
 
+                
                 entity.HasOne(d => d.Status)
                     .WithMany(p => p.People)
                     .HasForeignKey(d => d.StatusId)
                     .OnDelete(DeleteBehavior.ClientSetNull)
                     .HasConstraintName("FK_Person_Status");
+                */
             });
 
             modelBuilder.Entity<Region>(entity =>

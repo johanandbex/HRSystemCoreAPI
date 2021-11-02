@@ -10,15 +10,13 @@ namespace HRSystemCoreAPI.DatabaseEntity
     {
         public Department()
         {
-            People = new HashSet<Person>();
+            //People = new HashSet<Person>();
         }
 
         public int DepartmentId { get; set; }
         public string DepartmentName { get; set; }
         public int CompanyId { get; set; }
-
-        [JsonIgnore]
         public virtual Company Company { get; set; }
-        public virtual ICollection<Person> People { get; set; }
+       // public virtual ICollection<Person> People { get; set; }
     }
 }

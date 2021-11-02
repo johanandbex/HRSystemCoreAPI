@@ -8,9 +8,9 @@ namespace HRSystemCoreAPI.DatabaseEntity
     public partial class Company
     {
         public Company()
-        {
-            Departments = new HashSet<Department>();
-            People = new HashSet<Person>();
+        { 
+            //Departments = new HashSet<Department>();
+           // People = new HashSet<Person>();
         }
 
         public int CompanyId { get; set; }
@@ -18,7 +18,7 @@ namespace HRSystemCoreAPI.DatabaseEntity
         public int RegionId { get; set; }
 
         public virtual Region Region { get; set; }
-        public virtual ICollection<Department> Departments { get; set; }
-        public virtual ICollection<Person> People { get; set; }
+      //  public virtual ICollection<Department> Departments { get; set; }
+     //   public virtual ICollection<Person> People { get; set; }
     }
 }

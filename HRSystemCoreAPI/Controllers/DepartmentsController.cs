@@ -25,7 +25,7 @@ namespace HRSystemCoreAPI.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Department>>> GetDepartment()
         {
-            return await _context.Department.ToListAsync();
+            return await _context.Department.Include(d=>d.Company).ToListAsync();
         }
 
         // GET: api/Departments/5

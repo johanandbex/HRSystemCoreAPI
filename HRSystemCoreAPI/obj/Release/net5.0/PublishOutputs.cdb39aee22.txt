@@ -5,6 +5,8 @@ D:\Users\Johan\MyDocuments\GitHub\HRSystemCoreAPI\HRSystemCoreAPI\obj\Release\ne
 D:\Users\Johan\MyDocuments\GitHub\HRSystemCoreAPI\HRSystemCoreAPI\obj\Release\net5.0\PubTmp\Out\HRSystemCoreAPI.runtimeconfig.json
 D:\Users\Johan\MyDocuments\GitHub\HRSystemCoreAPI\HRSystemCoreAPI\obj\Release\net5.0\PubTmp\Out\HRSystemCoreAPI.pdb
 D:\Users\Johan\MyDocuments\GitHub\HRSystemCoreAPI\HRSystemCoreAPI\obj\Release\net5.0\PubTmp\Out\Humanizer.dll
+D:\Users\Johan\MyDocuments\GitHub\HRSystemCoreAPI\HRSystemCoreAPI\obj\Release\net5.0\PubTmp\Out\Microsoft.AspNetCore.JsonPatch.dll
+D:\Users\Johan\MyDocuments\GitHub\HRSystemCoreAPI\HRSystemCoreAPI\obj\Release\net5.0\PubTmp\Out\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 D:\Users\Johan\MyDocuments\GitHub\HRSystemCoreAPI\HRSystemCoreAPI\obj\Release\net5.0\PubTmp\Out\Microsoft.AspNetCore.Mvc.Testing.dll
 D:\Users\Johan\MyDocuments\GitHub\HRSystemCoreAPI\HRSystemCoreAPI\obj\Release\net5.0\PubTmp\Out\Microsoft.AspNetCore.Razor.Language.dll
 D:\Users\Johan\MyDocuments\GitHub\HRSystemCoreAPI\HRSystemCoreAPI\obj\Release\net5.0\PubTmp\Out\Microsoft.AspNetCore.TestHost.dll
@@ -39,6 +41,7 @@ D:\Users\Johan\MyDocuments\GitHub\HRSystemCoreAPI\HRSystemCoreAPI\obj\Release\ne
 D:\Users\Johan\MyDocuments\GitHub\HRSystemCoreAPI\HRSystemCoreAPI\obj\Release\net5.0\PubTmp\Out\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
 D:\Users\Johan\MyDocuments\GitHub\HRSystemCoreAPI\HRSystemCoreAPI\obj\Release\net5.0\PubTmp\Out\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
 D:\Users\Johan\MyDocuments\GitHub\HRSystemCoreAPI\HRSystemCoreAPI\obj\Release\net5.0\PubTmp\Out\Newtonsoft.Json.dll
+D:\Users\Johan\MyDocuments\GitHub\HRSystemCoreAPI\HRSystemCoreAPI\obj\Release\net5.0\PubTmp\Out\Newtonsoft.Json.Bson.dll
 D:\Users\Johan\MyDocuments\GitHub\HRSystemCoreAPI\HRSystemCoreAPI\obj\Release\net5.0\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
 D:\Users\Johan\MyDocuments\GitHub\HRSystemCoreAPI\HRSystemCoreAPI\obj\Release\net5.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\Users\Johan\MyDocuments\GitHub\HRSystemCoreAPI\HRSystemCoreAPI\obj\Release\net5.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll

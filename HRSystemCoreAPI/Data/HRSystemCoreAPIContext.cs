@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using HRSystemCoreAPI.DatabaseEntity;
 using Microsoft.EntityFrameworkCore;
-using HRSystemCoreAPI.DatabaseEntity;
 
 namespace HRSystemCoreAPI.Data
 {
@@ -14,14 +10,14 @@ namespace HRSystemCoreAPI.Data
         {
         }
 
-        public DbSet<HRSystemCoreAPI.DatabaseEntity.Region> Region { get; set; }
+        public DbSet<Region> Region { get; set; }
 
-        public DbSet<HRSystemCoreAPI.DatabaseEntity.Company> Company { get; set; }
+        public DbSet<Company> Company { get; set; }
 
-        public DbSet<HRSystemCoreAPI.DatabaseEntity.Department> Department { get; set; }
+        public DbSet<Department> Department { get; set; }
 
-        public DbSet<HRSystemCoreAPI.DatabaseEntity.Status> Status { get; set; }
+        public DbSet<Status> Status { get; set; }
 
-        public DbSet<HRSystemCoreAPI.DatabaseEntity.Person> Person { get; set; }
+        public DbSet<Person> Person { get; set; }
     }
 }
